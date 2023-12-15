@@ -1,5 +1,11 @@
 :root{
     --themecolor:#7aa5c6;
+    --bs-navbar-toggler-font-size:13px;
+}
+
+.navbar-toggler{
+    padding: 0 !important;
+    border: 0 !important;
 }
 
 .themecolor{
