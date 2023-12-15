@@ -104,6 +104,8 @@ img{
 @media only screen and (max-width: 768px) {
     .modal-dialog{
         width: 96% !important;
+        margin: 0 auto !important;
+        
     }
     
     .container{
@@ -183,10 +185,10 @@ img{
 
 @media only screen and (max-width: 426px) {
     
-    .apxi img{
-        
-        /* position: absolute; */
+    .arup{
+        display: none;
     }
+    
     .apxi .row{
         flex-direction: column;
     }
