@@ -255,6 +255,6 @@ img{
 
 @media only screen and (max-width: 376px) {
     .head{
-        height: 80vh !important;
+        height: 90vh !important;
     }
 }
