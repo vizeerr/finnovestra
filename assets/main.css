@@ -1,0 +1,256 @@
+:root{
+    --themecolor:#7aa5c6;
+}
+
+.themecolor{
+    color: var(--themecolor) !important;
+}
+.bgthemecolor{
+    background: var(--themecolor) !important;
+}
+
+.btn-primary{
+    color: #fff !important;
+    background: var(--themecolor) !important;
+    padding: 15px 25px;
+    width: 75%;
+    border-radius: 0;
+}
+
+.bgtri{
+    background: url(/images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #aaa;
+    padding: 10px 0;
+}
+
+input:active,input:focus{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #aaa;
+}
+
+.fs-7{
+    font-size: 15px !important;
+}
+
+.fs-8{
+    font-size: 13px !important;
+}
+.modal-dialog{
+    max-width: 100% !important;
+    width: 40% !important;
+    position: relative;
+    top: 20%;
+}
+
+.modal-body{
+    padding: 30px 50px;
+}
+
+.navbar-collapse ul li a{
+    color: #fff !important;
+}
+
+img{
+    filter: drop-shadow(3px 4px 16px #888888);
+}
+
+.blued{
+    background: #285570;
+    position: absolute;
+    height: 45vh;
+    width: 450px;
+    right: 0;
+    margin-top: 120px;
+}
+.twobl{
+    position: absolute; width: 20%;right: 300px; transform: rotate(-60deg);
+}
+
+.w-100{
+    overflow-x: hidden;
+}
+
+.bgh{
+    display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+    .blued{
+        display: none;
+    }
+    .twobl{
+        display: none   ;
+    }
+    .modal-dialog{
+        width: 60% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .modal-dialog{
+        width: 100% !important;
+    }
+    .container{
+        max-width: 95% !important;
+    }
+    .kexp{
+        flex-direction: column-reverse;
+    }
+    .kexp .col-6{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .kexp .col{
+        width: 100%;
+    }
+    .kcoin{
+        flex-direction: column  ;
+    }
+    .kcoin ul{
+        width: 100% !important;
+    }
+    .kcoin .p-5{
+       display: none;
+    }
+    .kcoin .col{
+        margin-bottom: 80px;
+    }
+    .kapx{
+        flex-direction: column;
+    }
+    .kapx ul{
+        width: 100% !important;
+    }
+    .kapx .text-end{
+        display: none;
+    }
+    .kapx .bg-body-secondary{
+        background: #fff !important;
+    }
+    .bgtri{
+        background: url(/images/bgm.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bgtri .row{
+        flex-direction: column;
+        row-gap: 10em !important;
+        padding: 0 5px !important;
+    }
+    .bgtri .row .col-4{
+        width: 60%;
+    }
+    .agh{
+        display: none;
+    }
+    .bgh{
+        display: block;
+        width: 35%;
+        align-self: flex-end;
+    }
+    .btn-primary{
+        width: 100% !important;
+    }
+    .head .display-1{
+        font-size: 4em !important;
+        width: 100%;
+    }
+    .head{
+        height: 80vh !important;
+    }
+    .apxi h3{
+        width: 100% !important;
+    }
+    
+}
+
+@media only screen and (max-width: 426px) {
+    .apxi img{
+        
+        /* position: absolute; */
+    }
+    .apxi .row{
+        flex-direction: column;
+    }
+
+    .apxi  .col-4{
+        display: none;
+    }
+    .bgh{
+        display: block;
+        width:30%;
+        align-self: flex-start;
+    }
+    .head{
+        height: 70vh !important;
+    }
+    .head p{
+        width: 100% !important;
+    }
+    .head .display-1{
+        font-size: 3.5em !important;
+        width: 100%;
+    }
+
+    .def{
+        margin-top: 30px;
+    }
+    .def .row{
+        flex-direction: column;
+    }
+    .def .row img{
+        width: 30% !important;
+        position: absolute;
+        top: 730px;
+        right: 30px;
+    }
+    .def .col,.def .col-7{
+        width: 100%;
+    }
+    .sol{
+        padding: 20px !important;
+    }
+    .sol .row{
+        flex-direction: column;
+    }
+    .sol .col-5{
+        width: 100%;
+    }
+
+    .sol img{
+        width: 100% !important;
+    }
+    .bgtri .row .col-4 {
+        width: 100%;
+    }
+    .bgtri{
+        padding: 40px 25px !important;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+        font-size: 1.3em !important;
+        row-gap: 10px;
+    }
+    footer h1{
+        font-size: 1.8em !important;
+    }
+}
+
+@media only screen and (max-width: 362px) {
+    .head{
+        height: 80vh !important;
+    }
+}
