@@ -256,6 +256,9 @@ img{
     footer h1{
         font-size: 1.8em !important;
     }
+    .sect .container{
+        padding: 20px !important;
+    }
 }
 
 @media only screen and (max-width: 376px) {
@@ -263,7 +266,7 @@ img{
         width: 35% !important;
     }
     .head{
-        height: 90vh !important;
+        height: 70vh !important;
     }
     .def .row img{
         top: 900px;
