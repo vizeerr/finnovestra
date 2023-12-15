@@ -185,6 +185,7 @@ img{
 
 @media only screen and (max-width: 426px) {
     
+    
     .arup{
         display: none;
     }
@@ -208,7 +209,7 @@ img{
         width: 100% !important;
     }
     .head .display-1{
-        font-size: 3.5em !important;
+        font-size: 3em !important;
         width: 100%;
     }
 
@@ -267,5 +268,9 @@ img{
     .def .row img{
         top: 900px;
         right: 30px;
+    }
+    .head .display-1 {
+        font-size: 2.4em !important;
+        width: 100%;
     }
 }
