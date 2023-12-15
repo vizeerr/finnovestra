@@ -103,7 +103,7 @@ img{
 
 @media only screen and (max-width: 768px) {
     .modal-dialog{
-        width: 100% !important;
+        width: 96% !important;
     }
     .container{
         max-width: 95% !important;
@@ -256,5 +256,9 @@ img{
 @media only screen and (max-width: 376px) {
     .head{
         height: 90vh !important;
+    }
+    .def .row img{
+        top: 900px;
+        right: 30px;
     }
 }
