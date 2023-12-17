@@ -1,5 +1,5 @@
 :root{
-    --themecolor:#7aa5c6;
+    --themecolor:#4b8bc3;
     --bs-navbar-toggler-font-size:13px;
 }
 
@@ -95,7 +95,29 @@ img{
     display: none;
 }
 
+.login{
+    width: 32%;
+    margin: 0 auto;
+}
+
+.btnlg{
+    border: 1px solid #dadada ;
+    border-radius: 6px;
+}
+
+.form-control{
+    background: #ebebeb;
+    border: none !important;
+}
+
+.form-label{
+    font-size: 12px;
+}
+
 @media only screen and (max-width: 1025px) {
+    .login{
+        width: 40%;
+    }
     .blued{
         display: none;
     }
@@ -108,6 +130,9 @@ img{
 }
 
 @media only screen and (max-width: 768px) {
+    .login{
+        width: 50%;
+    }
     .modal-dialog{
         width: 96% !important;
         margin: 0 auto !important;
@@ -190,6 +215,23 @@ img{
 }
 
 @media only screen and (max-width: 426px) {
+    .login{
+        width: 100%;
+    }
+    .container-xxl{
+        width: 95% !important;
+        padding: 10px !important;
+    }
+    .container-xxl h1{
+        font-size: 1.5em !important;
+    }
+
+    .tc{
+        width: 100% !important;
+        text-align: left !important;
+        margin: 0 !important;
+        font-size: 1.2em !important;
+    }
     
     
     .arup{
@@ -228,7 +270,7 @@ img{
     .def .row img{
         width: 30% !important;
         position: absolute;
-        top: 730px;
+        top: 665px;
         right: 30px;
     }
     .def .col,.def .col-7{
@@ -275,8 +317,8 @@ img{
         height: 80vh !important;
     }
     .def .row img{
-        top: 900px;
-        right: 30px;
+        top: 770px;
+        right: 0px;
     }
     .head .display-1 {
         font-size: 2.4em !important;
