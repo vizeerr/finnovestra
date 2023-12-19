@@ -130,6 +130,11 @@ img{
 }
 
 @media only screen and (max-width: 768px) {
+
+    .navbar-collapse{
+        margin: 1rem !important;
+    }
+
     .login{
         width: 50%;
     }
@@ -215,6 +220,13 @@ img{
 }
 
 @media only screen and (max-width: 426px) {
+    .text-center{
+        text-align: left !important;
+    }
+    .btn-primary {
+        width: 100% !important;
+        font-size: 14px;
+    }
     .login{
         width: 100%;
     }
@@ -277,7 +289,7 @@ img{
         width: 100%;
     }
     .sol{
-        padding: 20px !important;
+        padding: 15px !important;
     }
     .sol .row{
         flex-direction: column;
@@ -293,7 +305,7 @@ img{
         width: 100%;
     }
     .bgtri{
-        padding: 40px 25px !important;
+        padding: 40px 0px !important;
     }
     footer{
         flex-direction: column;
@@ -305,6 +317,12 @@ img{
         font-size: 1.8em !important;
     }
     .sect .container{
+        padding: 20px !important;
+    }
+    .kcoin .col{
+        padding: 25px !important;
+    }
+    .kapx .bg-body-secondary{
         padding: 20px !important;
     }
 }
