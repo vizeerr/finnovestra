@@ -114,6 +114,11 @@ img{
     font-size: 12px;
 }
 
+.globe{
+    width: 55%;
+    margin-top: 40px;
+}
+
 @media only screen and (max-width: 1025px) {
     .login{
         width: 40%;
@@ -130,6 +135,9 @@ img{
 }
 
 @media only screen and (max-width: 768px) {
+    .globe{
+        width: 75%;
+    }
 
     .navbar-collapse{
         margin: 1rem !important;
